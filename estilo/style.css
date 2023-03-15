@@ -8,15 +8,16 @@
 
 header{
     width: 100vw;
-    height: 25vh;
+    height: 23vh;
+    padding-top: 10px;
     background-color: rgb(206, 202, 202);
    
     
 }
 
 .logo1{
-     width: 130px;
-    height: 80px;
+    width: 130px;
+    height: 70px;
     text-align: center;
     margin: auto;
     background-image: url(../imagens/logo1.png);
@@ -25,13 +26,14 @@ header{
 }   
 .logo2{
     width: 100px;
-    height: 80px;
+    height: 70px;
     background-image: url(../imagens/logo2.png);
     margin: auto;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }   
 section{
+
     margin: auto;
     width: 80vw;
     height: 80vh;
@@ -41,8 +43,52 @@ p{
     max-width: 800px;
 }
 
+@media screen and (min-width:390px){
+    section{
+        background-color: forestgreen;
+    }
+    header{
+        padding-top: 30px;
+    }
+    .logo1{
+        width: 180px;
+      }
+      .logo2{
+        width: 150px;
+      }
+}
 @media screen and (min-width:540px){
+    header{
+        height:175px;
+    }
   section{
-    background-color: blue;
+    background-color: rgb(95, 95, 221);
+  }
+  .logo1{
+    width: 180px;
+  }
+  .logo2{
+    width: 150px;
   }
 }
+@media screen and (min-width:768px){
+    section{
+        background-color: brown;
+    }
+    header{
+        height: 100px;
+    }
+    .logo1{
+        display: inline-block;
+        float: left;
+        margin-top:-8px;
+        margin-left: 130px;
+    }
+    .logo2{
+        display: inline-block;
+        float: right;
+        margin-top:-8px;
+        margin-right: 130px;
+    }
+   
+  }

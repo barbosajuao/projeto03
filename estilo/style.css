@@ -10,7 +10,7 @@ header{
     width: 100vw;
     height: 23vh;
     padding-top: 10px;
-    background-color: rgb(206, 202, 202);
+    background-color: rgb(184, 189, 196);
    
     
 }
@@ -33,10 +33,10 @@ header{
     background-size: 100% 100%;
 }   
 section{
-    
+    padding: 5px;
     margin: auto;
     width: 90vw;
-    height: 80vh;
+    height: 70vh;
     background-image: url(../imagens/mobile.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -46,26 +46,109 @@ section{
     margin-right: 20px;
     width: 35%;
     height: 15%;
-    background-color:rgba(241, 240, 240, 0.753);
+    background-color:rgba(255, 252, 252, 0.896);
     float: right;
 }
 .form{
+    text-align: center;
     margin-left: 450px;
     margin-right: 20PX;
     width: 35%;
     height: 80%;
-    background-color: rgba(173, 170, 170, 0.69);
+    background-color: rgba(173, 170, 170, 0.529);
     float: right;
 }
+input{
+    width: 80%;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    
+
+}
+h2{
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 25px;
+    margin-bottom: -10px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2em;
+}
+#botao{
+    margin-top: 20px;
+    background-color: rgb(219, 40, 40);
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    
+}
+.texto{
+    padding: 10px;
+}
+span{
+    display: block;
+    width: 100%;
+    margin: auto;
+    
+
+    
+}
+#icon{
+    text-align: center;
+    display: inline-block;
+    color:rgb(219, 40, 40);
+    font-size: 5em;
+    margin-top: -30px;
+}
+
+.t1{
+    padding: 0px 30px;
+    margin: auto;
+    width: 84vw;
+    height: 200px;
+    background-color: rgb(225, 222, 222);
+}
+.t1 > h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+#loren{
+    text-align: center;
+    margin: auto;
+    width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width:390px){
     section{
+        display: block;
         width:90%;
         background-image: url(../imagens/mobile.jpg);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
-    }
+        background-size: 100% 100%;}
+
     header{
         padding-top: 30px;
     }
@@ -75,6 +158,35 @@ section{
       .logo2{
         width: 150px;
       }
+      .texto{
+        margin-top: 10PX;
+        margin-right:38px;
+        width: 80%;
+        height: 15%;
+        background-color:rgba(255, 255, 255, 0.896);
+        float: right;} 
+        .form{
+            text-align: center;
+            margin-right:38px;
+            width: 80%;
+            height: 80%;
+            background-color: rgba(173, 170, 170, 0.529);
+            float: right;
+        }     
+        .t1{
+            padding: 0px 30px;
+            margin: auto;
+            width: 87vw;
+            height: 300px;
+            background-color: rgb(225, 222, 222);
+        }
+        #loren{
+            text-align: center;
+            margin: auto;
+            width: 380px;
+        }
+
+        
 }
 @media screen and (min-width:540px){
     header{
@@ -115,5 +227,48 @@ section{
         margin-top:-8px;
         margin-right: 120px;
     }
-   
+    .form{
+        text-align: center;
+        margin-left: 450px;
+        margin-right: 20PX;
+        width: 35%;
+        height: 80%;
+        background-color: rgba(173, 170, 170, 0.529);
+        float: right;
+    }
+    input{
+        width: 80%;
+        height:40px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        
+    
+    }
+    .texto{
+        margin-top: 10PX;
+        margin-right: 20px;
+        width: 35%;
+        height: 15%;
+        background-color:rgba(255, 252, 252, 0.896);
+        float: right;
+    }
+    .t1{
+        padding: 0px 30px;
+        margin: auto;
+        width: 84vw;
+        height: 200px;
+        background-color: rgb(225, 222, 222);
+    }
+    .t1 > h1{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    #loren{
+        text-align: center;
+        margin: auto;
+        width: 800px;
+    }
   }

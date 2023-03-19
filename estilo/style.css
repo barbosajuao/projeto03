@@ -42,36 +42,34 @@ section{
     background-size: 100% 100%;
 }
 .texto{
-    margin-top: 10PX;
-    margin-right: 20px;
-    width: 35%;
+    margin:10px auto;
+    width: 80%;
     height: 15%;
     background-color:rgba(255, 252, 252, 0.896);
-    float: right;
 }
 .form{
+    padding-top: 15px;
+    margin:-25px auto;
     text-align: center;
-    margin-left: 450px;
-    margin-right: 20PX;
-    width: 35%;
+    width: 80%;
     height: 80%;
     background-color: rgba(173, 170, 170, 0.529);
-    float: right;
+    
 }
 input{
     width: 80%;
     height:40px;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 5px;
     border: none;
-    padding: 5px;
+    padding: 0px;
 
 }
 h2{
     text-align: left;
     margin-left: 40px;
     margin-top: 25px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     color: rgb(0, 0, 0);
     font-size: 1.2em;
 }
@@ -80,7 +78,7 @@ h2{
     background-color: rgb(219, 40, 40);
     border: none;
     color: white;
-    font-size: 1.5em;
+    font-size: 1.3em;
     
 }
 .texto{
@@ -98,16 +96,17 @@ span{
     text-align: center;
     display: inline-block;
     color:rgb(219, 40, 40);
-    font-size: 5em;
+    font-size: 4em;
     margin-top: -30px;
 }
 
 .t1{
-    padding: 0px 30px;
+    
     margin: auto;
-    width: 84vw;
-    height: 200px;
+    width: 90vw;
+    height: 250px;
     background-color: rgb(225, 222, 222);
+    padding-bottom: 50px;
 }
 .t1 > h1{
     text-align: center;
@@ -118,7 +117,61 @@ span{
     text-align: center;
     margin: auto;
     width: 800px;
-    max-width: 800px;
+    max-width: 410px;
+    padding-bottom: 10px;
+}
+.flex{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: 300px;
+   
+}
+.flex01{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: 300px;
+    flex-direction: row-reverse;}
+.it01{
+    background-position: center;
+    background-size:cover;
+    background-image: url(../imagens/img\ \(1\).jpg);
+    width: 50%;
+   
+}
+.it02{
+    
+    width: 50%;
+    padding: 10px;
+    background-color:rgb(219, 40, 40);
+}
+.it02 p{
+    color: white;
+    max-height: 80px;
+}
+.img02{
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/img\ \(2\).jpg);
+    width: 50%;
+}
+.flex02{
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    height: 300px;
+    
+}
+
+
+.img03{
+    
+    background-position: center;
+    background-size: cover;
+    background-image: url(../imagens/img\ \(3\).jpg);
+    width:50%;
 }
 
 
@@ -146,16 +199,81 @@ span{
 
 
 
-@media screen and (min-width:390px){
-    section{
-        display: block;
-        width:90%;
-        background-image: url(../imagens/mobile.jpg);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;}
+@media screen and (min-width:900px){
+   
 
+    section{
+        width: 85%;
+        background-image: url(../imagens/520421e1c543fd3ffa853acb527714c5.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
     header{
-        padding-top:10px;
+        height: 100px;
+        padding-top:25px;
+        
+    }
+    .logo1{
+        display: block;
+        float: left;
+        margin-top:-8px;
+        margin-left: 130px;
+    }
+    .logo2{
+        display: block;
+        float: right;
+        margin-top:-8px;
+        margin-right: 120px;
+    }
+    .form{
+        margin-top: -10px;
+        text-align: center;
+        margin-left: 450px;
+        margin-right: 20PX;
+        width: 35%;
+        height: 80%;
+        background-color: rgba(173, 170, 170, 0.529);
+        float: right;
+    }
+    .form  h2 {
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    input{
+        width: 80%;
+        height:40px;
+        margin-top: 10px;
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        
+    
+    }
+    .texto{
+        margin-top: 10PX;
+        margin-right: 20px;
+        width: 35%;
+        height: 15%;
+        background-color:rgba(214, 210, 210, 0.896);
+        float: right;
+    }
+    .t1{
+        padding: 0px 30px;
+        margin: auto;
+        width: 84vw;
+        height: 200px;
+        background-color: rgb(225, 222, 222);
+    }
+    .t1 > h1{
+        text-align: center;
+        text-decoration: underline;
+        margin-bottom: 10px;
+    }
+    #loren{
+        text-align: center;
+        margin: auto;
+        width: 800px;
+        max-width: 600px;
     }
     .logo1{
         width: 180px;
@@ -163,37 +281,38 @@ span{
       .logo2{
         width: 150px;
       }
-      .texto{
-        margin-top: 10PX;
-        margin-right:38px;
-        width: 80%;
-        height: 15%;
-        background-color:rgba(255, 255, 255, 0.896);
-        float: right;} 
-        .form{
-            text-align: center;
-            margin-right:38px;
-            width: 80%;
-            height: 80%;
-            background-color: rgba(173, 170, 170, 0.529);
-            float: right;
-        }     
-        .t1{
-            padding: 0px 30px;
-            margin: auto;
-            width: 87vw;
-            height: 300px;
-            background-color: rgb(225, 222, 222);
-        }
-        #loren{
-            text-align: center;
-            margin: auto;
-            width: 380px;
-        }
-
+      .flex{
+        display: flex;
+        margin: auto;
+        width: 84vw;
+        height: 300px;
+       
+    }
+    .flex01{
+        display: flex;
+        margin: auto;
+        width: 84vw;
+        height: 300px;
+       
+    
+    }
+    .flex02{
+        display: flex;
+        margin: auto;
+        width: 84vw;
+        height: 300px;
+       
+    }
+    .it02{
+        padding: 40px;
         
+    }
+    .it02 p{
+        margin-top: 50px;
+    }
 }
-@media screen and (min-width:540px){
+
+/*@media screen and (max-width:765px){
     header{
         height:175px;
     }
@@ -223,7 +342,7 @@ span{
 
 
 }
-@media screen and (min-width:765px){
+@media screen and (max-width:540px){
     section{
         width: 85%;
         background-image: url(../imagens/520421e1c543fd3ffa853acb527714c5.jpg);
@@ -294,7 +413,7 @@ span{
   }
 
 
-  @media screen and (min-width:900px){
+  @media screen and (max-width:390px){
     section{
         width: 85%;
         background-image: url(../imagens/520421e1c543fd3ffa853acb527714c5.jpg);
@@ -303,6 +422,7 @@ span{
     }
     header{
         height: 100px;
+        
     }
     .logo1{
         display: block;
@@ -340,7 +460,7 @@ span{
         margin-right: 20px;
         width: 35%;
         height: 15%;
-        background-color:rgba(253, 253, 253, 0.896);
+        background-color:rgba(214, 210, 210, 0.896);
         float: right;
     }
     .t1{
@@ -361,4 +481,4 @@ span{
         width: 800px;
         max-width: 600px;
     }
-  }
+  */

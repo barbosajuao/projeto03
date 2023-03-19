@@ -310,6 +310,12 @@ span{
     .it02 p{
         margin-top: 50px;
     }
+    #loren{
+        text-align: center;
+        margin: auto;
+        width: 800px;
+        max-width: 700px;
+        padding-bottom: 10px;
 }
 
 /*@media screen and (max-width:765px){
